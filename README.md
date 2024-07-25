@@ -9,7 +9,7 @@ My interests lie in data analysis, AI/ML, AWS, and mobile app development. I enj
 - 🌱 I’m currently learning AWS and its services along with getting better in python
 - 🔭 I’m currently working on making fun AI projects 
 - 😄 Pronouns: he/him
-- 🙇🏼not very active but soon it wil change 
+- 🙇🏼not very active but soon it will change 
 
   
 Feel free to reach out if you have any questions or want to collaborate on a project!
