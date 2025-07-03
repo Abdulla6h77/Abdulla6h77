@@ -1,0 +1,20 @@
+name: Update Latest Projects
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Runs every hour
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update latest repositories
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Latest Repos
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://github.com/Abdulla6h77"
+          custom_post_type: "repo"
+          max_post_count: 5
